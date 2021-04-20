@@ -1,0 +1,110 @@
+:root{
+    margin-bottom: 0px;
+}
+
+.carte{
+    width:550px;
+    height:400px;
+    background: linear-gradient(0deg, rgb(177, 211, 187) 65%,chocolate 35%) ;
+    
+    border-radius: 15px;
+    display: flex;
+    border:solid 3px black;
+
+}
+
+h1{
+    text-align: center;
+    margin: 0px;
+    padding:0px;
+    height:70px;
+    font-size:60px;
+}
+
+.photo{
+    width:220px;
+    height:400px;
+}
+
+.info{
+    width:330px;
+    height: 105px;
+}
+
+.haut{
+    width:330px;
+    height:140px;
+    display: flex;
+    flex-direction:column;
+}
+
+.bas{
+    width: 300px;
+    height:260px;
+    display:flex;
+    flex-direction: column;
+}
+
+.identite{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+    text-align: end;
+    font-size:25px;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+}
+
+para{
+    margin:0px;
+}
+
+
+.logo{
+    width: 300px;
+    height: 135px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sex{
+    text-align: end;
+    font-size:25px;
+}
+
+.photo{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.ph{
+    width: 80%;
+    height:80%;
+    border-radius: 15px;
+    border: solid 3px black;
+}
+
+.p2{
+    margin:auto;
+}
+
+.signature{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size:18px;
+}
+
+.formul{
+    text-align: center;
+}
+
+.boxcarte{
+display:flex;
+justify-content: center; 
+}
+
+.confirm{
+    display:flex;
+    justify-content: center;
+}
